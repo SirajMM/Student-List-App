@@ -1,5 +1,6 @@
 
 
+import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 part 'data_model.g.dart';
 
@@ -18,7 +19,7 @@ class StudentModel{
   final String num;
 
   @HiveField(4)
-  final String? image;
+  final String image;
 
 
   StudentModel({
